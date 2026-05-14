@@ -1,0 +1,106 @@
+{
+  "easycom": {
+    "autoscan": true,
+    "custom": {
+      "^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue"
+    }
+  },
+  "pages": [
+    {
+      "path": "pages/todo/todo",
+      "style": {
+        "navigationBarTitleText": "待办"
+      }
+    },
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "时间线"
+      }
+    },
+
+    {
+      "path": "pages/habits/habits",
+      "style": {
+        "navigationBarTitleText": "习惯"
+      }
+    },
+    {
+      "path": "pages/wish/wish",
+      "style": {
+        "navigationBarTitleText": "星愿"
+      }
+    },
+    {
+      "path": "pages/coin-detail/coin-detail",
+      "style": {
+        "navigationBarTitleText": "金币明细"
+      }
+    },
+    {
+      "path": "pages/settings/settings",
+      "style": {
+        "navigationBarTitleText": "设置"
+      }
+    },
+    {
+      "path": "pages/settings/profile-edit",
+      "style": {
+        "navigationBarTitleText": "个人信息"
+      }
+    },
+    {
+      "path": "pages/habit-detail/habit-detail",
+      "style": {
+        "navigationBarTitleText": "习惯详情"
+      }
+    }
+  ],
+  "tabBar": {
+    "custom": false,
+    "color": "#999999",
+    "selectedColor": "#4A90E2",
+    "borderStyle": "white",
+    "backgroundColor": "#FFFFFF",
+    "fontSize": "10px",
+    "iconWidth": "22px",
+    "spacing": "3px",
+    "list": [
+      {
+        "pagePath": "pages/todo/todo",
+        "iconPath": "static/tabs/todo.png",
+        "selectedIconPath": "static/tabs/todo-active.png",
+        "text": "待办"
+      },
+      {
+        "pagePath": "pages/habits/habits",
+        "iconPath": "static/tabs/habits.png",
+        "selectedIconPath": "static/tabs/habits-active.png",
+        "text": "习惯"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/timeline.png",
+        "selectedIconPath": "static/tabs/timeline-active.png",
+        "text": "时间线"
+      },
+      {
+        "pagePath": "pages/wish/wish",
+        "iconPath": "static/tabs/wish.png",
+        "selectedIconPath": "static/tabs/wish-active.png",
+        "text": "星愿"
+      },
+      {
+        "pagePath": "pages/settings/settings",
+        "iconPath": "static/tabs/settings.png",
+        "selectedIconPath": "static/tabs/settings-active.png",
+        "text": "设置"
+      }
+    ]
+  },
+  "globalStyle": {
+    "navigationStyle": "custom",
+    "navigationBarTextStyle": "black",
+    "navigationBarBackgroundColor": "#F5F6FA"
+  }
+}
